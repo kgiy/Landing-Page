@@ -2,7 +2,6 @@
 body{
   margin: 0;
   font-family: Roboto;
-  height: 3000px;
 }
 .header, .second-row{
   background-color: #1F2937;
@@ -96,7 +95,6 @@ a{
   font-size: 34px;
   font-style: italic;
   color: #1F2937;
-  font-weight: ;
 }
 .author{
   text-align: right;
@@ -109,7 +107,6 @@ a{
   justify-content: center;
   align-items: center;
   padding: 50px 0px;
-  border: solid;
   height: 200px;
 }
 .action{
@@ -124,4 +121,22 @@ a{
 }
 .first-line{
   font-weight: bold;
+}
+.sign-up-button button{
+  background-color: #3882F6;
+  color: white;
+  font-weight: bold;
+  padding: 8px 35px;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.footer{
+  background-color: #1F2937;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
 }
